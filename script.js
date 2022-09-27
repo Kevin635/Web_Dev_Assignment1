@@ -13,13 +13,13 @@
 function changeColor() {
 	let color = document.body.style.color;
 	if (color === 'black') {
-		document.body.style.color = 'gold';
+		document.body.style.color = 'darkorchid';
 	} 
-    else if(color == 'gold') {
+    else if(color == 'darkorchid') {
 		document.body.style.color = 'salmon';
 	}
     else if(color == 'salmon') {
-		document.body.style.color = 'darkorange ';
+		document.body.style.color = '	olive ';
 	}
     else{
         document.body.style.color = 'black';
