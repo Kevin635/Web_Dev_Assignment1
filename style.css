@@ -26,3 +26,33 @@
   .button {
     margin-right: 50px;
   }
+
+  /*Table style */
+
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    border:1px solid black;
+    background-color: lightgray;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border:1px solid black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .table_center{
+  margin-left: auto;
+  margin-right: auto;
+  }
+
